@@ -4,9 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Navigation</title>
+    <style>
+        .navbar{
+           background-color: rgb(208, 135, 244);
+           /* padding-top: 0%; */
+           padding-bottom: 7px;
+           /* margin: 5px; */
+          overflow:auto;
+          border-radius: 13px
+        }
+        .navbar li {
+            float: left;
+            padding: 10px;
+            margin-top: 1px;
+            margin-bottom: 1px; 
+            border: 1px;
+        }
+        /* .navbar li img{
+            
+            padding-bottom: 3px;
+        } */
+        .navbar ul {
+            font-style: none;
+           list-style-type: none;
+        }
+        .navbar a
+        {
+            text-emphasis-color: black;
+            text-decoration:none;
+            font-style: none;
+            /* text-decoration-color: black; */
+        }
+        .navbar a:hover{
+            /* background-color: rgb(164, 51, 235); */
+            cursor:	pointer;
+        }
+        .navbar div{
+            float:right;
+           margin-top: 7px;
+           text-decoration-color: rgb(12, 28, 172);
+        }
+    </style>
 </head>
 <body>
-    <p>helloooo.....</p>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <!-- <li><img src="https://cdn.dribbble.com/users/244309/screenshots/14872040/01_4x.jpg" alt="" width="30" height="35"></li> -->
+                <li><a href="">Home</a></li>
+                <li><a href="">Events</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact us</a></li>
+                <div>Search <input type="text" name="" id="searchhere"></div>
+            </ul>
+        </nav>
+    </header>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem est accusantium quia totam, dolorum soluta, tempora a nemo modi excepturi enim. Iure debitis expedita nam perferendis, velit tempora soluta nihil? </p>
+    
 </body>
 </html>
